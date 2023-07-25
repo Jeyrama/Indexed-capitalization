@@ -23,3 +23,5 @@ function capitalize(s,arr){
   capS = capS.join("");
   return capS
   };
+
+  // or
