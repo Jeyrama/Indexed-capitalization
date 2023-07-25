@@ -7,3 +7,6 @@ For example:
   capitalize("abcdef",[1,2,5]) = "aBCdeF"
   capitalize("abcdef",[1,2,5,100]) = "aBCdeF". There is no index 100.
 */
+
+
+// Solution
