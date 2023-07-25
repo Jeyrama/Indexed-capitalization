@@ -25,3 +25,12 @@ function capitalize(s,arr){
   };
 
   // or
+
+  function capitalize(s,arr){
+    return arr.reduce((a,b) => {
+      if (a[b]) {
+        a[b] = a[b].toUpperCase();
+      }
+      return a;
+    }, [...s]).join('');
+  }
